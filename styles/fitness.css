@@ -1,0 +1,166 @@
+.inter-fonts{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:300;
+  font-style: normal;
+}
+
+/* Shared styles */
+
+
+
+
+
+
+/* Header part styles */
+
+/* nav related styles */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px;
+    background: linear-gradient(0deg, rgb(0, 0, 0), rgb(54,52,56)100%);
+
+}
+.header-tag-styles{
+        justify-content: space-between;
+        color: rgb(230, 83, 60);
+        text-align: left;
+        font-size: 24px;
+        font-weight: 600;   
+}
+nav ul{
+    display: flex;
+     align-items: center;
+    
+}
+nav ul li{
+    list-style: none;
+   margin-right: 20px;
+    
+}
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.btn-primary{
+color: rgb(255, 255, 255);
+background-color: rgb(230, 83, 60);
+border-radius: 6px;
+font-size: 12px;
+font-weight: 300;
+text-align: left;
+}
+/* .first-part-div{
+position: absolute;
+width: 450px;
+left: 200px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+}
+.fitness-header-tag{
+color: rgb(255, 255, 255);
+font-size: 50px;
+font-weight: 600;
+text-align: left;
+} */
+
+.my-header-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+/* Main part styles */
+
+
+
+/* Table styles */
+.calculator{
+    text-align: center;
+}
+.bmi-header-tag{
+    text-align: center;
+    
+}
+table{
+    width: 50%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    
+
+}
+th, td{
+    border: 1px solid;
+    padding: 15px;
+    background: rgb(34, 34, 34);
+    color: white;
+}
+td{
+    text-align: center;
+}
+
+.calculator form{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+/* footer part styles */
+.total-div{
+    width: 800px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 102;
+    padding: 0px;
+}
+.total-div{
+    border-bottom: 2px solid red;
+    /* rgba(255, 255, 255, 0.1) */
+    height: 400px;
+}
+.fit-div h2{
+    font-size: 40px;
+    font-weight: 600;
+    /* color: rgb(255, 255, 255); */
+}
+.fit-div{
+    width: 50%;
+    height: 50px;
+}
+
+.get-started{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    row-gap: 120px;
+    
+}
+.started1{
+    margin: 0px 152px;
+}
+.started1 h3{
+    font-size: 30px;
+    font-weight: 500;
+    /* color: rgb(255, 255, 255); */
+}
+.started2 h3{
+    font-size: 30px;
+    font-weight: 500;
+    /* color: rgb(255, 255, 255); */
+}
+.last-div{
+    
+    text-align: center;
+
+}
+
