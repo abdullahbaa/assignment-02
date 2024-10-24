@@ -494,6 +494,10 @@ td{
     /* padding: 5px; */
 }
 /* footer part styles */
+.footer{
+    color: aliceblue;
+    margin-left: 100px;
+}
 .total-div{
     width: 800px;
     height: 150px;
@@ -504,8 +508,20 @@ td{
     gap: 102;
     padding: 0px;
 }
+.footer-para{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+}
+.para-last{
+color: rgba(255, 255, 255, 0.5);
+font-size: 20px;
+font-weight: 380;
+text-align: left;
+}
 .total-div{
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
     /* rgba(255, 255, 255, 0.1) */
     height: 400px;
 }
@@ -543,5 +559,21 @@ td{
     
     text-align: center;
 
+}
+
+/* Media Quary */
+
+@media screen and(max-width:576px){
+    .my-header-section,
+    .first-main-section,
+    .second-main-section,
+    .main-3rd-section,
+    .main-4th-section,
+    .main-last-section,
+    .footer{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    
 }
 
