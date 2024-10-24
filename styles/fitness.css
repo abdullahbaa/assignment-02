@@ -4,6 +4,15 @@
   font-weight:300;
   font-style: normal;
 }
+.miami-font{
+    font-family: 'Miama', sans-serif;
+    font-family: 120px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(0, 0, 0);
+}
 
 /* Shared styles */
 
@@ -13,6 +22,9 @@
 
 
 /* Header part styles */
+header{
+    margin-left: 20px;
+}
 
 /* nav related styles */
 
@@ -53,27 +65,99 @@ font-size: 12px;
 font-weight: 300;
 text-align: left;
 }
-/* .first-part-div{
-position: absolute;
-width: 450px;
-left: 200px;
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: flex-start;
+.list-anchor-style {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+
 }
+.fitboy-image{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.program-p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    font-weight: 400;
+}
+.download-app{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 6px;
+    border: 1px solid whitesmoke;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: left;
+}
+
 .fitness-header-tag{
 color: rgb(255, 255, 255);
-font-size: 50px;
-font-weight: 600;
+font-size: 60px;
+font-weight: 700;
 text-align: left;
-} */
+}
 
 .my-header-section{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    background: linear-gradient(0deg, rgb(0, 0, 0), rgb(54,52,56)100%);
+
+}
+.first-part-div{
+    margin-left: 100px;
+    padding: 2px 10px 2px 20px;
+}
+.fitness-image img{
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.smallbox-img{
+    color: aliceblue;
+    padding: 10px 10px;
+    border-radius: 4px;
+}
+.free{
+    position: absolute;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+
+}
+.smallbox-img, .free{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+.cir{
+    display: flex;
+    gap: 20px;
+}
+.circle{
+    color: black;
+    height: 30px;
+    width: 30px;
+    color: rgb(230, 83, 60);
+    background: rgb(230, 83, 60);
+    border-radius: 70%;
+    display: inline-block;
+    margin-top: 25px;
+}
+.top-right{
+    top: 200px;
+    right: 4px;
+}
+.bottom-left{
+    bottom: 5px;
+    left: 900px;
 }
 
 /* Main part styles */
