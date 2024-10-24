@@ -15,7 +15,26 @@ body{
 }
 
 /* Shared styles */
-
+.image-card-tags-styles{
+    /* margin-left: 100px; */
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    /* text-align: left; */
+}
+.image-card-paragraph-styles
+{
+color: rgba(255, 255, 255, 0.5);
+font-size: 12px;
+font-weight: 300;
+/* text-align: center; */
+}
+.card-all-div-styles{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
 
 
 
@@ -161,8 +180,33 @@ text-align: left;
 }
 
 /* Main part styles */
+.change-habit{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.habit-header-tag{
+    font-size: 48px;
+    font-weight: 900;
+}
+.we-believe{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
 
+/* Image-card styles */
+.all-card-container{
+    width: 50%;
+    margin-left: 260px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
 
+}
+.all-card-container img{
+    border-radius: 50%;
+}
 
 /* Table styles */
 .calculator{
