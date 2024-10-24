@@ -79,6 +79,7 @@ nav li a{
 .btn-primary{
 color: rgb(255, 255, 255);
 background-color: rgb(230, 83, 60);
+padding: 8px 10px 8px 10px ;
 border-radius: 40px;
 font-size: 12px;
 font-weight: 300;
@@ -306,42 +307,133 @@ text-align: left;
     background: rgba(6, 255, 210, 0.5)
 }
 
-
-
-
-
-
+/* main fourth section */
+.main-4th-section{
+    width: 100%;
+    color: aliceblue;
+    
+}
 /* Table styles */
 .calculator{
     text-align: center;
 }
+.bmi-1st-div{
+    width: 50%;
+    /* text-align: center; */
+    margin-left: 420px;
+    margin-top: 50px;
+}
+.bmi-2st-div{
+    margin-left: 280px;
+}
 .bmi-header-tag{
-    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 600;
+    text-align: left;
     
 }
+.bmi-para-tag{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 250;
+    text-align: left;
+}
+.bmi-header-tag2{
+    text-align: center;
+}
+.table-div{
+    background: rgb(34, 34, 34);
+    width: 100%;
+    display: flex;
+    gap: 200px;
+
+
+}
+
+
 table{
-    width: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.5);;
+    width: 140%;
     border-collapse: collapse;
     margin: 0 auto;
     
 
 }
 th, td{
+    /* color: rgba(255, 255, 255, 0.5); */
     border: 1px solid;
     padding: 15px;
     background: rgb(34, 34, 34);
     color: white;
 }
 td{
+    color: rgba(255, 255, 255, 0.5);
     text-align: center;
 }
-
-.calculator form{
-    display:flex;
+.first-form{
+    display: flex;
     flex-direction: row;
     align-items: center;
+    margin-left: 40px;
+    gap: 30px;
+}
+.first-label{
+    color: rgba(255, 255, 255, 0.5);
+    border: none ;
+    padding: 12px 80px 12px 20px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+}
+.second-label{
+    color: rgba(255, 255, 255, 0.5);
+    border: none ;
+    padding: 12px 125px 12px 20px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+}
+.third-label{
+    color: rgba(255, 255, 255, 0.5);
+    width: 50%;
+    margin-left:40px;
+    border: none ;
+    padding: 10px 20px 12px 20px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+}
+.second-form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 14px;
+    gap: 30px;
+}
+.third-form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.btn-bmi{
+    width: 20%;
+    color: rgb(255, 255, 255);
+    padding: 8px 10px 8px 10px ;
+    margin-top: 20px;
+    margin-left: 150px;
+    background-color: rgb(230, 83, 60);
+    border-radius: 40px;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: center;
 
 }
+
+/* .calculator form{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+
+} */
 
 /* footer part styles */
 .total-div{
